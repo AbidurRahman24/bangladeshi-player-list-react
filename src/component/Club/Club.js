@@ -7,7 +7,7 @@ const Club = (props) => {
     return (
         <div>
             <h2>Total Player: {club.length}</h2>
-            <h2>Total Budget: {total}</h2>
+            <h2>Total Budget: ${total}</h2>
             {club.map(club => <SeletedPlayer 
             club={club}
             ></SeletedPlayer>)}
