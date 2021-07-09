@@ -1,16 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
+import Player from './component/Player/Player'
 
 function App() {
-  // const [player, setPlayer] = useState([])
-  // useEffect(
-  //   fetch('https://mocki.io/v1/f4f44a79-11d2-4654-81fa-45ccf03563f8')
-  // .then(res => res.json())
-  // .then(data => setPlayer(data))
-  //   ,[])
+  
   return (
     <div>
-      <h2>Hello</h2>
+      <Player></Player>
     </div>
   );
 }
